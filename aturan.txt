@@ -1,0 +1,47 @@
+even
+======
+submit data
+   mengambil data baru dari form
+delete item
+   menghapus data
+chek dan undo item 
+   mengubah iscomplete 
+   memindhkan rak
+
+function
+========
+load data
+   merefres data dalam page
+tampil buku
+   tampil rak 1 dan 2
+cari buku
+   menncari buku
+tambah data
+
+
+kriteria
+=========
+1. Mampu Menambahkan Data Buku
+   {id: string | number,
+   title: string,
+   author: string,
+   year: number,
+   isComplete: boolean,}
+2. Memiliki Dua Rak Buku
+3. Dapat Memindahkan Buku antar Rak
+4. Dapat Menghapus Data Buku
+5. Manfaatkan localStorage dalam Menyimpan Data Buku
+
+
+saran penilaian
+===============
+Tambahkan fitur pencarian untuk mem-filter buku yang ditampilkan pada rak 
+   sesuai dengan title buku yang dituliskan pada kolom pencarian.
+Berkreasilah dengan membuat proyek Bookshelf Apps tanpa menggunakan project starter.
+Menuliskan kode dengan bersih.
+   - Bersihkan comment dan kode yang tidak digunakan.
+   - Indentasi yang sesuai.
+Terdapat improvisasi fitur seperti (pilih satu): 
+   - Custom Dialog ketika menghapus buku.
+   - Dapat edit buku.
+   - dsb.

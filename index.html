@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookShelf Apps</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <form action="#" class="formPencarian background-item" id="pencarian">
+            <input type="name" id="cari" name="cari" class="cari" required placeholder="Masukkan Judul Buku yang Ingin Dicari">
+        </form>
+        <div class="logo">
+            <img src="assets/img/logo-buku.png" alt="buku">
+            <h1>Pencarian BookShelf</h1>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="wrapper">
+            <div class="container">
+                <h3 class="container-header text-center"> Tambah Daftar Buku</h3>
+                <form class="formBuku" action="#" id="formBuku">
+                    <div class="form-group form-title">
+                        <label for="title">Masukkan Judul Buku</label>
+                        <input type="text" id="judulBuku" name="judulBuku" required>
+                    </div>
+                    <div class="form-group form-title">
+                        <label for="author">Nama Penulis</label>
+                        <input type="text" id="penulisBuku" name="PenulisBuku" required>
+                    </div>
+                    <div class="form-group form-title">
+                        <label for="year">Tahun Terbit</label>
+                        <input type="number" id="tahunTerbit" name="tahunTerbit" required>
+                    </div>
+                    <div class="form-group form-title">
+                        <label for="date">Tanggal Menambahkan Buku</label>
+                        <input type="date" id="tanggalPeminjaman" name="tanggalPeminjaman" required>
+                    </div>
+                    <div class="form-group form-title check">
+                        <label for="complete">Selesai Dibaca</label>
+                        <input type="checkbox" id="selesai" name="selesai"> Sudah
+                    </div>
+                    <input type="submit" name="submit" class="btn-submit">
+                </form>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <div class="container">
+                <h3 class="container-header text-center">Daftar Buku yang Belum Selesai Dibaca</h3>
+                <div class="list-item" id="Buku">
+
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="container-header text-center">Daftar Buku yang Sudah Selesai Dibaca</h3>
+                <div class="list-item" id="bukuSelesai">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js" type="text/javascript"></script>
+</body>
+
+</html>
